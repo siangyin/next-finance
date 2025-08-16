@@ -1,12 +1,5 @@
-import { UserButton } from "@clerk/nextjs"
-
-const HomePage = () => {
-  return (
-    <div>
-      HomePage
-      <UserButton />
-    </div>
-  )
+const DashboardPage = () => {
+  return <div>DashboardPage</div>
 }
 
-export default HomePage
+export default DashboardPage
